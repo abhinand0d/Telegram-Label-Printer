@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Glabels-document version="4.0">
+  <Template part="80MM - 1A-Edited (Copy) (Copy)" height="70.8661pt" roll_width="0pt" description="Krishna" width="226.772pt" size="roll" brand="Krishna">
+    <Label-rectangle round="0pt" id="0" y_waste="0pt" height="70.8661pt" x_waste="0pt" width="113.386pt">
+      <Markup-margin size="9.01417pt"/>
+      <Layout dy="70.8661pt" x0="0pt" ny="1" nx="2" dx="113.386pt" y0="0pt"/>
+    </Label-rectangle>
+  </Template>
+  <Objects id="0" rotate="false">
+    <Object-text shadow_color="0xff" y="-1.82205pt" w="105pt" font_size="7" a0="1" color="0xff" x="3.9685pt" font_weight="normal" font_italic="false" a1="0" font_underline="false" align="left" wrap="word" shadow_y="1.3pt" font_family="Sans" auto_shrink="false" shadow_opacity="0.5" valign="top" line_spacing="0.98" a2="0" shadow_x="1.3pt" a3="1" lock_aspect_ratio="false" a4="0" h="18pt" shadow="false" a5="0">
+      <p>KRISHNA GARMENTS</p>
+    </Object-text>
+    <Object-barcode h="45.5874pt" y="12pt" data="${code}&#xa;" lock_aspect_ratio="true" a2="0" a0="1" a4="0" x="3.75751pt" style="qrcode" w="45.5874pt" text="false" color="0xff" checksum="true" a5="0" a3="1" a1="0" backend="qrencode"/>
+    <Object-text shadow_color="0xff" y="16pt" w="67.0913pt" font_size="5" a0="1" color="0xff" x="48pt" font_weight="bold" font_italic="false" a1="0" font_underline="false" align="hcenter" wrap="word" shadow_y="1.3pt" font_family="Sans" auto_shrink="false" shadow_opacity="0.5" valign="top" line_spacing="1" a2="0" shadow_x="1.3pt" a3="1" lock_aspect_ratio="false" a4="0" h="13.3024pt" shadow="false" a5="0">
+      <p>${item}</p>
+    </Object-text>
+    <Object-text shadow_color="0xff" y="36pt" w="46pt" font_size="13" a0="1" color="0xff" x="56pt" font_weight="bold" font_italic="false" a1="0" font_underline="false" align="hcenter" wrap="none" shadow_y="1.3pt" font_family="Times New Roman" auto_shrink="false" shadow_opacity="0.5" valign="vcenter" line_spacing="0" a2="0" shadow_x="1.3pt" a3="1" lock_aspect_ratio="false" a4="0" h="15pt" shadow="false" a5="0">
+      <p>₹${rs}</p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </Object-text>
+    <Object-text shadow_color="0xff" y="60pt" w="27pt" font_size="6" a0="1" color="0xff" x="12pt" font_weight="bold" font_italic="false" a1="0" font_underline="false" align="hcenter" wrap="word" shadow_y="1.3pt" font_family="Times New Roman" auto_shrink="false" shadow_opacity="0.5" valign="vcenter" line_spacing="1" a2="0" shadow_x="1.3pt" a3="1" lock_aspect_ratio="false" a4="0" h="8pt" shadow="false" a5="0">
+      <p></p>
+      <p></p>
+      <p></p>
+    </Object-text>
+    <Object-text shadow_color="0xff" y="58pt" w="48pt" font_size="6" a0="1" color="0xff" x="1pt" font_weight="bold" font_italic="false" a1="0" font_underline="false" align="hcenter" wrap="none" shadow_y="1.3pt" font_family="Times New Roman" auto_shrink="false" shadow_opacity="0.5" valign="vcenter" line_spacing="0" a2="0" shadow_x="1.3pt" a3="1" lock_aspect_ratio="false" a4="0" h="10pt" shadow="false" a5="0">
+      <p>${code}</p>
+      <p></p>
+    </Object-text>
+  </Objects>
+  <Variables>
+    <Variable initialValue="P3265" type="string" name="code"/>
+    <Variable initialValue="170KIDSDHOTHI" type="string" name="item"/>
+    <Variable initialValue="170" type="string" name="rs"/>
+  </Variables>
+  <Data/>
+</Glabels-document>
